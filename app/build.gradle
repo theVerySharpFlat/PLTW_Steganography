@@ -22,7 +22,8 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'steganography.Steganography'
+    mainClass = 'steganography.OpenEnded'
+    tasks.run.workingDir = rootProject.projectDir
 }
 
 jar {
